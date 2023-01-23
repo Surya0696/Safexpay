@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SapeXPay-Add Uers</title>
+    <link rel="icon" href="/assets/logo.png">
+    <link rel="stylesheet" href="/style.css">
+    <!--animate link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--  -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- ASide Navbar Section -->
+
+    <div class="side-nav">
+
+        <div class="navbar-logo">
+
+            <img src="/menu.png" class="m1" alt="">
+
+            <img src="/logo_wh 2.png" class="m2" alt="">
+        </div>
+
+        <div class="lines">
+            <img src="/Line 55.png" class="line1" alt="">
+
+            <img src="/Profile_images.png" class="m3" alt="">
+            <label>Surya</label>
+            <img src="/Line 55.png" class="line2" alt="">
+
+        </div>
+        <div class="navbar_Lists">
+
+            <ul>
+                <li> <img src="/Vector.png" alt=""> Dashboard</li>
+                <li> <img src="/Vector (1).png" alt=""> AI/Agent Management</li>
+                <li> <img src="/Vector (2).png" alt=""> MIS</li>
+                <li> <img src="/Vector (2).png" alt=""> Profile</li>
+                <li> <img src="/Vector (2).png" alt=""> Wallet Management</li>
+                <li> <img src="/Vector (2).png" alt=""> Refund and Chargeback</li>
+                <li> <img src="/Vector (2).png" alt=""> Reconcalition</li>
+                <li> <img src="/Vector (2).png" alt=""> Transaction</li>
+                <li> <img src="/Vector (2).png" alt=""> Commission Plan Module</li>
+                <li><a href="/index.html"> <img src="/Vector (2).png" alt=""> User Creation Module</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+
+
+    <!-- center_header Section-->
+
+
+    <div class="container-fluid" id="profilebar">
+        <div class="row row-cols-2">
+            <div class="col" id="hometitle">
+                <span> </a> <img src="/home.png" alt=""> <a href="/index.html" id="userbcak">User Creation Module /<b>Add
+                            User</b></a></span>
+            </div>
+            <div class="col" id="navicons">
+                <img src="/bell.png" alt="" id="bellicon">
+                <img src="/Profile_images.png" alt="" id="profileicon">
+            </div>
+            <div class="col" id="hometitle3">User Creation Module</div>
+        </div>
+    </div>
+
+
+    <!-- Add New User -->
+
+    <div class="container" id="fluidbox">
+        <span>Add New user</span>
+
+        <div class="fluidbox2">
+            <label class="boxheader">Enter Details</label>
+            <br>
+            <label class="boxheader1">Select institute type</label>
+            <select class="form-select" aria-label="Default select example" id="">
+                <option selected>COU</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+
+            <div class="boxheader2">
+
+                <label>Request raised by</label>
+                <select class="form-select" aria-label="Default select example" id="">
+                    <option selected>ABCD</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+
+
+
+
+            <div class="boxheader3">
+
+                <label>Select institute Name, ID</label>
+                <select class="form-select" aria-label="Default select example" id="">
+                    <option selected>ALL</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+
+            <div class="boxline1">
+                <span id="line3">First Name</span>
+                <input type="text" placeholder="Surya" id="text1">
+            </div>
+
+            <div class="boxline2">
+                <span id="line4">Email ID</span>
+                <input type="text" placeholder="Surya@gmail.com" id="text2">
+            </div>
+
+            <div class="boxline3">
+                <span id="line5">Last Name</span>
+                <input type="text" placeholder="P R" id="text3">
+            </div>
+
+            <div class="boxline4">
+                <span id="line6">Mobile Number</span>
+                <input type="number" placeholder="+91-987456123" id="text4">
+            </div>
+
+            <div class="remark ">
+                <label>Remark (Optional)</label>
+                <textarea id="" cols="40" rows="3" placeholder="Request raiser Name? Request reason? "></textarea>
+            </div>
+        </div>
+
+        <div class="fluidbox3">
+
+            <div class="boxheader4">
+
+                <label>User Role</label>
+                <select class="form-select" aria-label="Default select example" id="">
+                    <option selected>Select Role</option>
+                    <option value="3">UX/UI Designer</option>
+                    <option value="2">HR</option>
+                    <option value="1">Developer</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="btn2">
+            <button type="button" class="btn btn-light dbtn2 " data-bs-toggle="modal" data-bs-target="#mypopup1"
+                dta-bs-dismiss="modal"><a href="#">CANCEL</a></button>
+            <button type="button" class="btn btn-dark dbtn3 " data-bs-toggle="modal" data-bs-target="#mypopup"
+                dta-bs-dismiss="modal"><a href="#">APPROVE</a></button>
+        </div>
+    </div>
+
+    <!-- popup btn APPROVE PLAN-->
+
+    <div class="modal animate__animated animate__bounce" id="mypopup" aria-labelledby="mypopup" aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="modal-title">APPROVE PLAN</span>
+
+                </div>
+                <div class="modal-body">
+                    Are you sure you want to approve (Plan Name) ?
+
+                </div>
+                <div class="modal-footer">
+                    <button id="popup-btn1">NO</button>
+                    <button id="popup-btn2">YES</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- popup btn Cancel-->
+    <div class="popups1">
+
+
+        <div class="modal animate__animated animate__bounce"id="mypopup1" aria-labelledby="mypopup1" aria-hidden="true">
+            <div class="modal-dialog  modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="modal-title">CANCEL PLAN</span>
+
+                    </div>
+                    <div class="modal-body">
+                        <span id="body-lineup">
+                            You Wish To Reject (Plan Name), Please State Your Reason Below.
+                        </span>
+                        <label id="Remark">Rejection Remark</label>
+                        <label class="boxpopup"> </label>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button id="popup-btn3">CANCEL</button>
+                        <button id="popup-btn4">SUBMIT</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
